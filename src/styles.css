@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+/*UPPERCASE*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*LOWERCASE*/
+.lowercase {
+    text-transform: lowercase;
+}
+
+/*capitalise*/
+.capitalise, .capitalize {
+    text-transform: capitalize;
+}
