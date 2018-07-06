@@ -8,7 +8,51 @@
     text-transform: lowercase;
 }
 
-/*capitalise*/
+/*CAPITALISE*/
 .capitalise, .capitalize {
     text-transform: capitalize;
+}
+
+
+/*BUTTON*/
+
+button, .btn {
+    text-transform: capitalize !important;
+    box-shadow: none !important;
+} 
+
+.outline-btn {
+    box-shadow: none !important;
+    border: 1px solid #444 !important;
+    color: #444 !important;
+    background: transparent !important;
+}
+
+/*circular*/
+.btn .circular {
+    border-radius: 25px !important;
+}
+
+/*JOINED BUTTONS*/
+
+.joined-btns {
+    border-radius: 25px;
+    width: fit-content !important;
+    vertical-align: middle;
+}
+
+.joined-btns .btn {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 0 .7rem !important;
+}
+
+.joined-btns .left-outer {
+    border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 25px !important;
+}
+
+.joined-btns .right-outer {
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
 }
