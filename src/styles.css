@@ -29,7 +29,7 @@ button, .btn {
 }
 
 /*circular*/
-.btn .circular {
+.btn.circular {
     border-radius: 25px !important;
 }
 
